@@ -4,4 +4,5 @@
   <h2> <%= task.title %> </h2>
   <h3> Due: <%= task.due_date %> </h3>
   <%= link_to 'Show Task', task_path(task) %>
+  <%= link_to 'Edit Task', edit_task_path(task) %>
 <% end %>
